@@ -1,0 +1,188 @@
+.oelm-verified-success, .oelm-verify-notice {
+    z-index: 99999999;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+
+.oelm-verified-success span:last-of-type a {
+    text-decoration: underline;
+    color: #3c763d;
+    margin-left: 6px;
+}
+
+.oelm-notice-error{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.oelm-notice-success{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.oelm-notice{
+    display: none;
+    margin-top: 10px 0;
+}
+
+.oelm-notice-error , .oelm-notice-success{
+    padding: 7px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* OTP */
+button.oelm-otp-verify-btn {
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto 0;
+    display: table;
+}
+
+.oelm-otp-input-cont {
+    display: table;
+    margin: 0 auto;
+}
+
+form.oelm-otp-form {
+    text-align: center;
+    display: none;
+}
+
+.oelm-otp-sent-txt {
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+span.oelm-otp-no-change {
+    color: #0d81fe;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.oelm-otp-input-cont input.oelm-otp-input:focus {
+    outline: 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #0d81fe;
+}
+
+.oelm-otp-input-cont input.oelm-otp-input {
+    max-width: 60px;
+    text-align: center;
+    margin-right: 15px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 600;
+    font-size: 23px;
+    border-bottom: 1px solid #000;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    box-shadow: 0 0 0;
+}
+
+.oelm-otp-notice-cont {
+    height: 50px;
+}
+
+form.oelm-otp-form .oelm-notice {
+    display: table;
+    margin: 0 auto;
+}
+
+span.oelm-reg-phone-change {
+    position: relative;
+    display: none;
+    float: right;
+    top: -22px;
+    right: 10px;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 13px;
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a.oelm-otp-resend-link {
+    color: #0d81fe;
+    text-decoration: none!important;
+    cursor: pointer;
+}
+
+.oelm-otp-resend {
+    margin-top: 10px;
+}
+
+a.oelm-otp-resend-link.oelm-disabled {
+    pointer-events: none!important;
+}
+
+.oelm-reg-has-cc {
+    display: flex;
+}
+
+.oelm-reg-has-cc select.oelm-reg-phone-cc-select, .oelm-reg-has-cc input.oelm-reg-phone-cc-text  {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.oelm-regphin {
+    position: relative;
+    width: 100%;
+}
+
+input#oelm-reg-phone {
+    width: 100%;
+}
+
+span.oelm-low-back {
+    color: #4a90e2;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+button.oelm-login-otp-btn {
+    margin-top: 13px;
+}
+.oelm-processing{
+    pointer-events: none;
+}
+.mo-el-container .oelm-notice{
+    margin-top: -15px;
+    width: calc(100% - 20px);
+}
+
+span.oelm-or {
+    display: none;
+    margin: 20px 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #333;
+    font-size: 14px;
+}
+
+.mo-aff-cont-phone span.oelm-reg-phone-change {
+    position: absolute;
+    top: 50%;
+}

@@ -1,0 +1,184 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-12-22 16:40+0530\n"
+"PO-Revision-Date: 2019-12-10 00:36+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-xoo-ml-admin-settings.php:47
+#: admin/includes/class-xoo-ml-users-table.php:53
+#: includes/class-xoo-ml-frontend.php:81 includes/xoo-ml-functions.php:93
+#: includes/xoo-ml-functions.php:116 templates/xoo-ml-otp-login-button.php:17
+#: templates/xoo-ml-otp-login-button.php:23
+msgid "Phone"
+msgstr ""
+
+#: admin/class-xoo-ml-admin-settings.php:48
+msgid "Services"
+msgstr ""
+
+#: admin/class-xoo-ml-admin-settings.php:221
+msgid "Settings"
+msgstr ""
+
+#: admin/includes/class-xoo-ml-users-table.php:37
+#: includes/class-xoo-ml-verification.php:239
+msgid "Please select country code"
+msgstr ""
+
+#: admin/includes/class-xoo-ml-users-table.php:41
+#, php-format
+msgid "User: #%1s is already registered with %2s phone number"
+msgstr ""
+
+#: admin/includes/class-xoo-ml-users-table.php:56
+#: templates/xoo-ml-phone-input.php:15
+msgid "Select Country Code"
+msgstr ""
+
+#: admin/includes/options/phone-options.php:230
+msgid ""
+"[otp] is your One Time Verification(OTP) to confirm your phone no at your WooCommerce website."
+msgstr ""
+
+#: includes/class-xoo-ml-frontend.php:61
+msgid "Please enter a phone number"
+msgstr ""
+
+#: includes/class-xoo-ml-frontend.php:62
+msgid "Email address cannot be empty."
+msgstr ""
+
+#: includes/class-xoo-ml-frontend.php:63
+msgid "Please enter a password."
+msgstr ""
+
+#: includes/class-xoo-ml-frontend.php:64
+msgid ""
+"Please enter a valid phone number without any special characters & country "
+"code."
+msgstr ""
+
+#: includes/class-xoo-ml-frontend.php:124
+msgid "Phone or Email address"
+msgstr ""
+
+#: includes/class-xoo-ml-otp-handler.php:36
+msgid "Operator not found"
+msgstr ""
+
+#: includes/class-xoo-ml-otp-handler.php:104
+msgid "Phone Number not found"
+msgstr ""
+
+#: includes/class-xoo-ml-otp-handler.php:176
+#, php-format
+msgid "OTP Limit reached. Please try again in %s."
+msgstr ""
+
+#: includes/class-xoo-ml-otp-handler.php:182
+#, php-format
+msgid "Please wait %s for a new OTP."
+msgstr ""
+
+#: includes/class-xoo-ml-otp-handler.php:192
+#, php-format
+msgid "Maximum number of tries exceeded. Please try again in %s."
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:92
+msgid "Login successful"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:204
+msgid "OTP Resent"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:229
+#: includes/class-xoo-ml-verification.php:395
+msgid "Phone field cannot be empty"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:282
+msgid "Please verify your mobile number"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:297
+#: includes/class-xoo-ml-verification.php:423
+#, php-format
+msgid "Please enter the OTP sent to <br> %s"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:335
+msgid "Number of tries exceeded, Please try again in few minutes"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:341
+msgid "OTP Expired"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:360
+msgid "Thank you for verifying your number."
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:371
+msgid "Invalid OTP"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:402
+msgid "We cannot find an account with that mobile number"
+msgstr ""
+
+#: includes/class-xoo-ml-verification.php:408
+msgid "Something went wrong. Please contact site administrator."
+msgstr ""
+
+#: templates/xoo-ml-form-otp.php:6
+msgid "Change"
+msgstr ""
+
+#: templates/xoo-ml-form-otp.php:22
+msgid "Verify"
+msgstr ""
+
+#: templates/xoo-ml-form-otp.php:25
+msgid "Not received your code? Resend code"
+msgstr ""
+
+#: templates/xoo-ml-otp-login-button.php:1
+#: templates/xoo-ml-otp-login-button.php:32
+msgid "Login with OTP"
+msgstr ""
+
+#: templates/xoo-ml-otp-login-button.php:33
+msgid "Back"
+msgstr ""
+
+#: templates/xoo-ml-phone-input-form.php:3
+msgid "Verify Phone Number"
+msgstr ""
+
+#: templates/xoo-ml-phone-input.php:23
+msgid "Country Code"
+msgstr ""
+
+#: templates/xoo-ml-phone-input.php:30
+msgid "Change?"
+msgstr ""
+
+#: xoo-ml-main.php:59
+msgid ""
+"WooCommerce Login/Signup Popup is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
